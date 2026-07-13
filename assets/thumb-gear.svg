@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480">
+  <defs><linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#e9f8ff"/><stop offset=".6" stop-color="#eef7ea"/><stop offset="1" stop-color="#c6e0b2"/></linearGradient><filter id="s"><feDropShadow dx="0" dy="12" stdDeviation="10" flood-opacity=".2"/></filter></defs>
+  <rect width="640" height="480" fill="url(#bg)"/>
+  <ellipse cx="330" cy="386" rx="250" ry="38" fill="#3e6f39" opacity=".18"/>
+  <g filter="url(#s)">
+    <rect x="66" y="134" width="130" height="190" rx="30" fill="#1d2429"/>
+    <path d="M96 134c6-50 68-50 76 0" fill="none" stroke="#111" stroke-width="15"/>
+    <path d="M84 230h94" stroke="#40515b" stroke-width="12"/>
+    <g transform="translate(218 172)">
+      <path d="M0 92c54-78 148-36 190 36 15 26 1 52-30 54H18c-32 0-44-35-18-90Z" fill="#1159b8"/>
+      <path d="M60 65h77l68 69" fill="none" stroke="#fff" stroke-width="15" opacity=".8"/>
+      <path d="M150 134h66" stroke="#ff7a22" stroke-width="18"/>
+    </g>
+    <g transform="translate(414 110)">
+      <circle cx="78" cy="78" r="72" fill="#fff" stroke="#151515" stroke-width="8"/>
+      <path d="M78 28 111 61 98 104H58L45 61Z" fill="#111"/>
+      <path d="M77 28 27 28 45 61Z" fill="#111"/>
+      <path d="M111 61 135 107 98 104Z" fill="#111"/>
+      <path d="M58 104 26 135 18 90Z" fill="#111"/>
+      <path d="M98 104 128 136 78 150Z" fill="#111"/>
+    </g>
+    <rect x="430" y="285" width="54" height="110" rx="16" fill="#111"/>
+    <rect x="504" y="285" width="54" height="110" rx="16" fill="#111"/>
+  </g>
+</svg>

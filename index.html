@@ -1,0 +1,515 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>サッカースタートガイド</title>
+    <meta
+      name="description"
+      content="はじめてサッカーを始める子どもと保護者のための道具、ルール、練習、声かけのガイド。"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#" aria-label="サッカースタートガイド ホーム">
+        <span class="brand-ball" aria-hidden="true">●</span>
+        <span>
+          <strong>サッカースタートガイド</strong>
+          <small>はじめてのサッカーを、もっと楽しく。</small>
+        </span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="メインメニュー">
+        <a class="active" href="#">ホーム</a>
+        <a href="#gear">道具</a>
+        <a href="#rules">ルール</a>
+        <a href="#join">体験・入会</a>
+        <a href="#practice">練習</a>
+        <a href="#support">親の声かけ</a>
+        <a href="#growth">PDF特典</a>
+        <a href="#articles">ブログ</a>
+        <a href="#zodiac">星座記事</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">保護者のためのはじめてガイド</p>
+          <h1>はじめてのサッカー、<span>何から始めればいい？</span></h1>
+          <p>
+            道具・ルール・練習・チーム選び・親の関わり方まで、最初の一歩をわかりやすく整理しました。
+          </p>
+          <a class="line-button" href="#growth">LINE友だち登録でPDFを受け取る</a>
+        </div>
+        <div class="hero-visual" aria-label="サッカーをする子どものイメージ">
+          <img src="assets/hero-soccer.svg" alt="" />
+        </div>
+      </section>
+
+      <section class="section problem-search" aria-labelledby="problem-title">
+        <div class="section-heading">
+          <h2 id="problem-title">困っていることから探す</h2>
+        </div>
+        <div class="problem-grid">
+          <a class="problem-card green" id="gear" href="#categories">
+            <span class="icon">⚽</span>
+            <strong>道具を<br />そろえる</strong>
+          </a>
+          <a class="problem-card blue" id="rules" href="#categories">
+            <span class="icon">◇</span>
+            <strong>ルールを<br />知る</strong>
+          </a>
+          <a class="problem-card orange" id="join" href="#categories">
+            <span class="icon">T</span>
+            <strong>体験・入会<br />ガイド</strong>
+          </a>
+          <a class="problem-card lime" id="practice" href="#categories">
+            <span class="icon">△</span>
+            <strong>家でできる<br />練習</strong>
+          </a>
+          <a class="problem-card coral" id="support" href="#categories">
+            <span class="icon">♡</span>
+            <strong>親の<br />声かけ</strong>
+          </a>
+          <a class="problem-card purple" href="#growth">
+            <span class="icon">☑</span>
+            <strong>PDF<br />プレゼント</strong>
+          </a>
+        </div>
+      </section>
+
+      <div class="content-layout">
+        <section class="panel articles" id="articles" aria-labelledby="articles-title">
+          <div class="panel-heading">
+            <h2 id="articles-title">人気記事</h2>
+            <a href="#">もっと見る</a>
+          </div>
+          <div class="article-grid">
+            <article class="article-card">
+              <div class="thumb gear-img"></div>
+              <span class="tag green-tag">道具</span>
+              <h3>初心者が最初に買うべきサッカー用品7選</h3>
+              <time datetime="2026-05-12">2026.05.12</time>
+            </article>
+            <article class="article-card">
+              <div class="thumb board-img"></div>
+              <span class="tag yellow-tag">ルール</span>
+              <h3>オフサイドを30秒でわかりやすく解説</h3>
+              <time datetime="2026-05-10">2026.05.10</time>
+            </article>
+            <article class="article-card">
+              <div class="thumb kids-img"></div>
+              <span class="tag blue-tag">ルール</span>
+              <h3>8人制って何？コートサイズを確認</h3>
+              <time datetime="2026-05-08">2026.05.08</time>
+            </article>
+            <article class="article-card">
+              <div class="thumb throw-img"></div>
+              <span class="tag blue-tag">ルール</span>
+              <h3>キックインとは？低学年ルールをやさしく解説</h3>
+              <time datetime="2026-05-06">2026.05.06</time>
+            </article>
+            <article class="article-card">
+              <div class="thumb parent-img"></div>
+              <span class="tag pink-tag">親の声かけ</span>
+              <h3>子どもがミスした時の声かけ3つのポイント</h3>
+              <time datetime="2026-05-04">2026.05.04</time>
+            </article>
+          </div>
+        </section>
+
+        <aside class="side-stack" aria-label="サポート情報">
+          <section class="support-card" id="growth">
+            <div>
+              <h2>LINE友だち登録で<br />サッカースタートガイドPDFプレゼント</h2>
+              <ul>
+                <li>サッカースタートガイドPDFを無料配布</li>
+                <li>道具選びのチェックリスト付き</li>
+                <li>最初の練習メニューを紹介</li>
+                <li>保護者向けの声かけ例も収録</li>
+              </ul>
+              <a class="line-button compact" href="#">LINE友だち登録で受け取る</a>
+            </div>
+            <img class="phone-art" src="assets/support-app.svg" alt="" />
+          </section>
+
+          <!--
+          販売開始時にこのブロックを戻す。
+          <section class="pdf-card">
+            <div>
+              <p class="eyebrow">完全版PDF</p>
+              <h2>サッカー初心者 親のための完全ガイド</h2>
+              <p>無料PDFの内容に、練習表・持ち物リスト・チーム選びの比較表を追加。</p>
+              <strong>価格：1,480円（税込）</strong>
+              <a class="orange-button" href="#">詳しく見る</a>
+            </div>
+            <div class="book-art" aria-hidden="true">PDF</div>
+          </section>
+          -->
+        </aside>
+      </div>
+
+      <article class="zodiac-article" id="zodiac" aria-labelledby="zodiac-title">
+        <header class="zodiac-hero">
+          <p class="eyebrow">読み物コンテンツ</p>
+          <h2 id="zodiac-title">2026年W杯日本代表｜太陽星座×ポジション</h2>
+          <p>
+            2026年W杯に向けた日本代表メンバー26名を、太陽星座とポジションの関係から読み解くコラムです。
+            競技力や選考を占うものではなく、星座ごとの象徴と役割の重なりを楽しむ観察記事として整理しました。
+          </p>
+        </header>
+
+        <section class="zodiac-block">
+          <div class="zodiac-heading">
+            <span>GK</span>
+            <h3>最後の砦に獅子座が2名</h3>
+          </div>
+          <div class="table-scroll">
+            <table>
+              <thead>
+                <tr>
+                  <th>選手</th>
+                  <th>生年月日</th>
+                  <th>太陽星座</th>
+                  <th>ポジション</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr><td>鈴木彩艶</td><td>2002年8月21日</td><td>♌獅子座</td><td>GK</td></tr>
+                <tr><td>大迫敬介</td><td>1999年7月28日</td><td>♌獅子座</td><td>GK</td></tr>
+                <tr><td>早川友基</td><td>1999年3月3日</td><td>♓魚座</td><td>GK</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p>
+            GK3名のうち、2名が獅子座です。鈴木彩艶選手と大迫敬介選手はともに、自分が最後の砦として前面に立つポジション。
+            獅子座の「堂々と存在感を示す」「中心として責任を背負う」という象徴との重なりが見られます。
+          </p>
+        </section>
+
+        <section class="zodiac-block">
+          <div class="zodiac-heading">
+            <span>DF</span>
+            <h3>蟹座が最多。守る役割に集中</h3>
+          </div>
+          <div class="table-scroll">
+            <table>
+              <thead>
+                <tr>
+                  <th>選手</th>
+                  <th>生年月日</th>
+                  <th>太陽星座</th>
+                  <th>主なポジション</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr><td>長友佑都</td><td>1986年9月12日</td><td>♍乙女座</td><td>SB・WB</td></tr>
+                <tr><td>谷口彰悟</td><td>1991年7月15日</td><td>♋蟹座</td><td>CB</td></tr>
+                <tr><td>板倉滉</td><td>1997年1月27日</td><td>♒水瓶座</td><td>CB・DMF</td></tr>
+                <tr><td>渡辺剛</td><td>1997年2月5日</td><td>♒水瓶座</td><td>CB</td></tr>
+                <tr><td>冨安健洋</td><td>1998年11月5日</td><td>♏蠍座</td><td>CB・SB</td></tr>
+                <tr><td>伊藤洋輝</td><td>1999年5月12日</td><td>♉牡牛座</td><td>CB・LB</td></tr>
+                <tr><td>瀬古歩夢</td><td>2000年6月7日</td><td>♊双子座</td><td>CB</td></tr>
+                <tr><td>菅原由勢</td><td>2000年6月28日</td><td>♋蟹座</td><td>SB・WB</td></tr>
+                <tr><td>鈴木淳之介</td><td>2003年7月12日</td><td>♋蟹座</td><td>CB・SB</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p>
+            DFでは、蟹座が3名で最多。水瓶座が2名続きます。JFAの大会登録では9名全員がDFに分類されています。
+          </p>
+        </section>
+
+        <section class="zodiac-block">
+          <div class="zodiac-heading">
+            <span>MF/FW</span>
+            <h3>攻撃と判断の役割に星座の個性を見る</h3>
+          </div>
+          <div class="table-scroll">
+            <table>
+              <thead>
+                <tr>
+                  <th>選手</th>
+                  <th>生年月日</th>
+                  <th>太陽星座</th>
+                  <th>主な役割</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr><td>鎌田大地</td><td>1996年8月5日</td><td>♌獅子座</td><td>OMF・CMF</td></tr>
+                <tr><td>佐野海舟</td><td>2000年12月30日</td><td>♑山羊座</td><td>DMF・CMF</td></tr>
+                <tr><td>田中碧</td><td>1998年9月10日</td><td>♍乙女座</td><td>CMF・DMF</td></tr>
+                <tr><td>町野修斗</td><td>1999年9月30日</td><td>♎天秤座</td><td>CF</td></tr>
+                <tr><td>伊東純也</td><td>1993年3月9日</td><td>♓魚座</td><td>WG・WB</td></tr>
+                <tr><td>堂安律</td><td>1998年6月16日</td><td>♊双子座</td><td>WG・OMF</td></tr>
+                <tr><td>中村敬斗</td><td>2000年7月28日</td><td>♌獅子座</td><td>WG</td></tr>
+                <tr><td>久保建英</td><td>2001年6月4日</td><td>♊双子座</td><td>WG・OMF</td></tr>
+                <tr><td>鈴木唯人</td><td>2001年10月25日</td><td>♏蠍座</td><td>OMF・WG</td></tr>
+                <tr><td>前田大然</td><td>1997年10月20日</td><td>♎天秤座</td><td>CF・WG</td></tr>
+                <tr><td>上田綺世</td><td>1998年8月28日</td><td>♍乙女座</td><td>CF</td></tr>
+                <tr><td>小川航基</td><td>1997年8月8日</td><td>♌獅子座</td><td>CF</td></tr>
+                <tr><td>後藤啓介</td><td>2005年6月3日</td><td>♊双子座</td><td>CF</td></tr>
+                <tr><td>塩貝健人</td><td>2005年3月26日</td><td>♈牡羊座</td><td>CF・WG</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p>
+            JFAではこの14名を「MF/FW」として一括登録しています。生年月日は選手別プロフィールおよび代表一覧を基準に整理しました。
+          </p>
+        </section>
+
+        <section class="zodiac-block zodiac-split">
+          <div>
+            <div class="zodiac-heading">
+              <span>Ranking</span>
+              <h3>星座別の人数</h3>
+            </div>
+            <div class="table-scroll">
+              <table>
+                <thead>
+                  <tr><th>順位</th><th>太陽星座</th><th>人数</th><th>主な選手</th></tr>
+                </thead>
+                <tbody>
+                  <tr><td>1</td><td>♌獅子座</td><td>5人</td><td>鈴木彩艶、大迫、鎌田、中村、小川</td></tr>
+                  <tr><td>2</td><td>♊双子座</td><td>4人</td><td>瀬古、堂安、久保、後藤</td></tr>
+                  <tr><td>3</td><td>♋蟹座</td><td>3人</td><td>谷口、菅原、鈴木淳之介</td></tr>
+                  <tr><td>3</td><td>♍乙女座</td><td>3人</td><td>長友、田中、上田</td></tr>
+                  <tr><td>5</td><td>♎天秤座</td><td>2人</td><td>町野、前田</td></tr>
+                  <tr><td>5</td><td>♏蠍座</td><td>2人</td><td>冨安、鈴木唯人</td></tr>
+                  <tr><td>5</td><td>♒水瓶座</td><td>2人</td><td>板倉、渡辺</td></tr>
+                  <tr><td>5</td><td>♓魚座</td><td>2人</td><td>早川、伊東</td></tr>
+                  <tr><td>9</td><td>♈牡羊座</td><td>1人</td><td>塩貝</td></tr>
+                  <tr><td>9</td><td>♉牡牛座</td><td>1人</td><td>伊藤洋輝</td></tr>
+                  <tr><td>9</td><td>♑山羊座</td><td>1人</td><td>佐野</td></tr>
+                  <tr><td>12</td><td>♐射手座</td><td>0人</td><td>―</td></tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div>
+            <div class="zodiac-heading">
+              <span>Element</span>
+              <h3>エレメント別</h3>
+            </div>
+            <div class="table-scroll">
+              <table>
+                <thead>
+                  <tr><th>エレメント</th><th>星座</th><th>人数</th><th>割合</th></tr>
+                </thead>
+                <tbody>
+                  <tr><td>風</td><td>双子・天秤・水瓶</td><td>8人</td><td>30.8％</td></tr>
+                  <tr><td>水</td><td>蟹・蠍・魚</td><td>7人</td><td>26.9％</td></tr>
+                  <tr><td>火</td><td>牡羊・獅子・射手</td><td>6人</td><td>23.1％</td></tr>
+                  <tr><td>地</td><td>牡牛・乙女・山羊</td><td>5人</td><td>19.2％</td></tr>
+                </tbody>
+              </table>
+            </div>
+            <p>
+              今回の日本代表は、風エレメントが最多です。これは「風が多いから強い」とはまだ言えませんが、
+              素早い判断、連係、ポジション交換、周囲との関係性を象徴的に読むうえでは興味深い結果です。
+            </p>
+          </div>
+        </section>
+
+        <section class="zodiac-block">
+          <div class="zodiac-heading">
+            <span>Hypothesis</span>
+            <h3>早くも見えた4つの仮説</h3>
+          </div>
+          <div class="hypothesis-grid">
+            <section class="hypothesis-card">
+              <h4>仮説1｜双子座は攻撃ポジションが多い</h4>
+              <p>
+                双子座4名のうち、堂安律、久保建英、後藤啓介の3名が攻撃選手です。
+                周囲を見て判断し、中と外を行き来し、状況に応じて役割を変えるタイプとして見えてきます。
+              </p>
+              <strong>双子座＝判断力と可変性を生かすアタッカー</strong>
+            </section>
+            <section class="hypothesis-card">
+              <h4>仮説2｜獅子座は責任を背負う中心役</h4>
+              <p>
+                獅子座は最多の5名。GK、OMF、WG、CFと配置は分かれますが、いずれも「自分が決める」「自分が止める」役割です。
+              </p>
+              <strong>獅子座＝試合の結果を背負う中心性の高い役割</strong>
+            </section>
+            <section class="hypothesis-card">
+              <h4>仮説3｜蟹座は守備・カバー役に集中</h4>
+              <p>
+                谷口彰悟、菅原由勢、鈴木淳之介の3名全員がDFです。
+                仲間や自陣を守り、危険を察知してカバーする象徴と重なります。
+              </p>
+              <strong>蟹座＝自陣と仲間を守るDF型</strong>
+            </section>
+            <section class="hypothesis-card">
+              <h4>仮説4｜乙女座は役割遂行型</h4>
+              <p>
+                長友佑都、田中碧、上田綺世はポジションこそ分かれますが、戦術の中で細かな動きを積み重ねる職人的な役割が見えます。
+              </p>
+              <strong>乙女座＝タスクを精密に遂行する選手</strong>
+            </section>
+          </div>
+        </section>
+
+        <section class="zodiac-block">
+          <div class="zodiac-heading">
+            <span>Conclusion</span>
+            <h3>今回の重要な結論</h3>
+          </div>
+          <div class="table-scroll">
+            <table>
+              <thead>
+                <tr><th>星座</th><th>現時点で見える傾向</th></tr>
+              </thead>
+              <tbody>
+                <tr><td>牡羊座</td><td>勝負を仕掛ける前線型</td></tr>
+                <tr><td>牡牛座</td><td>安定感のある守備型</td></tr>
+                <tr><td>双子座</td><td>可変性の高い攻撃・判断役</td></tr>
+                <tr><td>蟹座</td><td>自陣と仲間を守るDF型</td></tr>
+                <tr><td>獅子座</td><td>結果と責任を背負う中心役</td></tr>
+                <tr><td>乙女座</td><td>戦術・タスク遂行型</td></tr>
+                <tr><td>天秤座</td><td>連係しながら動く前線型</td></tr>
+                <tr><td>蠍座</td><td>対人強度・集中力型</td></tr>
+                <tr><td>山羊座</td><td>中盤の土台・規律型</td></tr>
+                <tr><td>水瓶座</td><td>ビルドアップ型CB</td></tr>
+                <tr><td>魚座</td><td>感覚的な反応・突破型</td></tr>
+                <tr><td>射手座</td><td>今回は該当者なし</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p class="note">
+            これは26名の一大会だけから得た観察結果です。出生月の偏りや年代構成も影響するため、
+            「勝てる法則」と断定する段階ではありません。今後、歴代代表や他国代表でも再現されるかを見ていくと、さらに面白い読み物になります。
+          </p>
+        </section>
+      </article>
+
+      <section class="panel products" aria-labelledby="products-title">
+        <div class="panel-heading">
+          <h2 id="products-title">初心者におすすめのサッカー用品</h2>
+          <a href="#">一覧を見る</a>
+        </div>
+        <div class="product-row">
+          <a href="#"><span class="product shoe-blue"></span>スパイク</a>
+          <a href="#"><span class="product shoe-black"></span>トレーニングシューズ</a>
+          <a href="#"><span class="product ball-product"></span>ボール</a>
+          <a href="#"><span class="product guards"></span>すね当て</a>
+          <a href="#"><span class="product bag"></span>バッグ</a>
+          <a href="#"><span class="product bottle"></span>水筒</a>
+          <a href="#"><span class="product ladder"></span>マーカー・ラダー</a>
+        </div>
+      </section>
+
+      <section class="section grade-guides" aria-labelledby="grade-title">
+        <h2 id="grade-title">学年別ガイド</h2>
+        <div class="grade-grid">
+          <article class="grade-card low">
+            <div>
+              <h3>1〜2年生向け</h3>
+              <a href="#">メニューを見る</a>
+              <ul>
+                <li>基本のボールタッチ</li>
+                <li>楽しく体を動かす練習</li>
+                <li>試合のルールをやさしく解説</li>
+              </ul>
+            </div>
+            <span class="mini-player"></span>
+          </article>
+          <article class="grade-card middle">
+            <div>
+              <h3>3〜4年生向け</h3>
+              <a href="#">メニューを見る</a>
+              <ul>
+                <li>ドリブル・パスを上達させる</li>
+                <li>試合での動き方を学ぶ</li>
+                <li>自主練メニューも紹介</li>
+              </ul>
+            </div>
+            <span class="mini-player duo"></span>
+          </article>
+          <article class="grade-card high">
+            <div>
+              <h3>5〜6年生向け</h3>
+              <a href="#">メニューを見る</a>
+              <ul>
+                <li>試合で活躍するためのスキル</li>
+                <li>ポジションの役割を理解する</li>
+                <li>自主練メニューも紹介</li>
+              </ul>
+            </div>
+            <span class="mini-player sprint"></span>
+          </article>
+        </div>
+      </section>
+
+      <section class="section categories" id="categories" aria-labelledby="category-title">
+        <h2 id="category-title">カテゴリから探す</h2>
+        <div class="category-grid">
+          <article>
+            <h3>⚽ 道具をそろえる</h3>
+            <a href="#">最初に買うもの</a>
+            <a href="#">スパイク</a>
+            <a href="#">トレーニングシューズ</a>
+            <a href="#">ボール</a>
+            <a href="#">バッグ・リュック</a>
+          </article>
+          <article>
+            <h3>◇ ルールを知る</h3>
+            <a href="#">オフサイドとは？</a>
+            <a href="#">キックインとは？</a>
+            <a href="#">8人制のルール</a>
+            <a href="#">ファウル・ハンド</a>
+            <a href="#">コートサイズ</a>
+          </article>
+          <article>
+            <h3>T 体験・入会ガイド</h3>
+            <a href="#">体験の流れと持ち物</a>
+            <a href="#">チーム選びのポイント</a>
+            <a href="#">月謝の相場</a>
+            <a href="#">少年団とスクールの違い</a>
+            <a href="#">よくある質問</a>
+          </article>
+          <article>
+            <h3>△ 家でできる練習</h3>
+            <a href="#">ボールタッチ</a>
+            <a href="#">ドリブル練習</a>
+            <a href="#">パス・トラップ</a>
+            <a href="#">リフティング</a>
+            <a href="#">親子でできる練習</a>
+          </article>
+          <article>
+            <h3>♡ 親の声かけ</h3>
+            <a href="#">試合前の声かけ</a>
+            <a href="#">ミスした時の声かけ</a>
+            <a href="#">やる気を引き出す言葉</a>
+            <a href="#">コーチとの付き合い方</a>
+            <a href="#">応援マナー</a>
+          </article>
+          <article>
+            <h3>☑ PDF特典</h3>
+            <a href="#">PDFプレゼントとは</a>
+            <a href="#">受け取り方</a>
+            <a href="#">道具チェックリスト</a>
+            <a href="#">おすすめ練習メニュー</a>
+            <a href="#">保護者向けアドバイス</a>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <strong>サッカースタートガイド</strong>
+      <span>はじめてのサッカーを、もっと楽しく。</span>
+      <nav aria-label="フッターメニュー">
+        <a href="https://celecao.com/" target="_blank" rel="noopener">会社概要</a>
+        <a href="privacy.html">プライバシーポリシー</a>
+        <a href="https://forms.gle/613mCTBNDF6x4jt97" target="_blank" rel="noopener">お問い合わせ</a>
+      </nav>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
